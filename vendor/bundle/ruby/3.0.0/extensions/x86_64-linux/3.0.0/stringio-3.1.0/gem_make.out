@@ -1,0 +1,15 @@
+current directory: /home/carlos/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.0/ext/stringio
+/home/carlos/.rbenv/versions/3.0.6/bin/ruby -I /home/carlos/.rbenv/versions/3.0.6/lib/ruby/3.0.0 -r ./siteconf20231130-78-ofr591.rb extconf.rb
+creating Makefile
+
+current directory: /home/carlos/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= clean
+
+current directory: /home/carlos/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\=
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/carlos/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20231130-78-w7zkvw
