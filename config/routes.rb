@@ -17,6 +17,17 @@ Rails.application.routes.draw do
 
   get 'password/reset', to: 'password_resets#new'
   post 'password/reset', to: 'password_resets#create'
+  #to do the reset itself
+  get 'password/reset/edit', to: 'password_resets#edit'
+  patch 'password/reset/edit', to: 'password_resets#update'
+
+  # OmniAuth Routes
+  get '/auth/twitter/callback', to: 'omniauth_callbacks#twitter'
+
+  resources :twitter_accounts
+  resources :tweets
+  
+  
 
   # Defines the root path route ("/")
   root "main#index"
