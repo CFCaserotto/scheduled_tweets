@@ -13,7 +13,7 @@ class TwitterAccount < ApplicationRecord
       }
       x_client = X::Client.new(**x_credentials)
   end
-  def client_x
-    "hola"
-  end
+  #def client_x
+  #  "hola"
+  #end
 end
