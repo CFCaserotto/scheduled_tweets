@@ -11,6 +11,7 @@ gem "sprockets-rails"
 # Use pg as the database for Active Record
 gem "pg", "~> 1.1"
 
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
@@ -72,3 +73,5 @@ end
 
 
 gem "x", "~> 0.12.1"
+
+gem "sidekiq", "~> 7.2"
